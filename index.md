@@ -1,6 +1,4 @@
-<head></head>
-<head>
-<style>
+<!--<style>
 h1 {
     text-align: center;
 }
@@ -8,8 +6,7 @@ p {
     font-family: verdana;
     font-size: 20px;
 }
-</style>
-</head>
+</style>-->
 
 # *Tạo tài khoản mới* #
 # **_Miễn phí và luôn như vậy_** #
