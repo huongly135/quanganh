@@ -1,4 +1,4 @@
-<html><head></head>
+<head></head>
 <head>
 <style>
 h1 {
@@ -10,11 +10,10 @@ p {
 }
 </style>
 </head>
-<body>
 
-<h1>Tạo tài khoản mới</h1>
-<h2>Miễn phí và luôn như vậy</h2>
-</body>
+# *Tạo tài khoản mới* #
+# **_Miễn phí và luôn như vậy_** #
+
 <form action="/action_page.php">
   <input type="text" name="fname" placeholder="Họ"><input type="text" name="lname" placeholder="Tên"><br><br>
 	<input type="text" name="lname" placeholder="Số di động hoặc email"><br><br>
@@ -205,4 +204,4 @@ p {
    Nữ
    <br>
    <input type="submit" value="Đăng ký">
-</html>
+
