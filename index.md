@@ -1,9 +1,6 @@
 <html><head></head>
 <head>
 <style>
-body {
-    background-color: lightblue;
-}
 h1 {
     color: white;
     text-align: center;
