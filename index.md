@@ -1,5 +1,4 @@
 <html><head></head>
-<head></head>
 <body>
 
 <h2>Tạo tài khoản mới</h2>
