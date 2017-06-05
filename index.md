@@ -1,19 +1,5 @@
 <html><head></head>
-<head>
-<style>
-body {
-    background-color: lightblue;
-}
-h1 {
-    color: white;
-    text-align: center;
-}
-p {
-    font-family: verdana;
-    font-size: 20px;
-}
-</style>
-</head>
+<head></head>
 <body>
 
 <h2>Tạo tài khoản mới</h2>
