@@ -1,21 +1,30 @@
-<!--<style>
+<html><head></head>
+<head>
+<style>
+body {
+    background-color: lightblue;
+}
+
 h1 {
+    color: white;
     text-align: center;
 }
+
 p {
     font-family: verdana;
     font-size: 20px;
 }
-</style>-->
+</style>
+</head>
+<body>
 
-# *Tạo tài khoản mới* #
-# **_Miễn phí và luôn như vậy_** #
-
+<h2>Tạo tài khoản mới</h2>
+<p>Miễn phí và luôn như vậy</p>
 </body>
 <form action="/action_page.php">
-  <input type="text" name="fname" placeholder="Họ"><input type="text" name="lname" placeholder="Tên"><br><br>
-	<input type="text" name="lname" placeholder="Số di động hoặc email"><br><br>
-	<input type="password" name="lname" placeholder="Mật khẩu mới"><br><br>
+  <input type="text" name="fname" placeholder="Họ"><input type="text" name="lname" placeholder="Tên"><br>
+  <input type="text" name="lname" placeholder="Số di động hoặc email"><br>
+  <input type="text" name="lname" placeholder="Mật khẩu mới"><br>
 </form>
 <input list="day" name="day" placeholder="Day">
 <datalist id="day">
@@ -51,8 +60,8 @@ p {
 	</option><option value="30">
 	</option><option value="31">
 	</option></datalist>
-<input list="month" name="month" placeholder="Month">
-<datalist id="month">
+    <input list="month" name="month" placeholder="Month">
+    <datalist id="month">
 	<option value="1">
   	</option><option value="2">
   	</option><option value="3">
@@ -66,8 +75,8 @@ p {
 	</option><option value="11">
 	</option><option value="12">
 	</option></datalist>
-<input list="year" name="year" placeholder="Year">
-<datalist id="year">
+    <input list="year" name="year" placeholder="Year">
+    <datalist id="year">
 	
 <option value="1958">
 </option><option value="1959">
@@ -130,8 +139,8 @@ p {
 </option><option value="2016">
 </option><option value="2017">
   
-</option></datalist>
-<datalist id="year">
+	</option></datalist>
+    <datalist id="year">
 	
 <option value="1958">
 </option><option value="1959">
@@ -194,7 +203,7 @@ p {
 </option><option value="2016">
 </option><option value="2017">
   
-</option></datalist>
+	</option></datalist>
 	<br>
 	<input type="radio" name="gender" value="Nam" checked="">
      Nam
@@ -202,4 +211,4 @@ p {
    Nữ
    <br>
    <input type="submit" value="Đăng ký">
-
+</html>
