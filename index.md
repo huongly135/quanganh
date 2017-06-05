@@ -9,8 +9,8 @@
 	<input type="text" name="lname" placeholder="Số di động hoặc email"><br><br>
 	<input type="password" name="lname" placeholder="Mật khẩu mới"><br><br>
 </form>
-<input list="day" name="day" placeholder="Day">
-<datalist id="day">
+<input list="Ngày" name="Ngày" placeholder="Ngày">
+<datalist id="Ngày">
 	<option value="1">
   	</option><option value="2">
   	</option><option value="3">
@@ -43,8 +43,8 @@
 	</option><option value="30">
 	</option><option value="31">
 	</option></datalist>
-<input list="month" name="month" placeholder="Month">
-<datalist id="month">
+<input list="Tháng" name="Tháng" placeholder="Tháng">
+<datalist id="Tháng">
 	<option value="1">
   	</option><option value="2">
   	</option><option value="3">
@@ -58,8 +58,8 @@
 	</option><option value="11">
 	</option><option value="12">
 	</option></datalist>
-<input list="year" name="year" placeholder="Year">
-<datalist id="year">
+<input list="Năm" name="Năm" placeholder="Năm">
+<datalist id="Năm">
 	
 <option value="1958">
 </option><option value="1959">
@@ -195,11 +195,24 @@
    <br>
    <body>
 
-<button type="button"
-onclick="document.getElementById('demo').innerHTML = Date()">
-Đăng kí.</button>
+<p>Click the button to display a time-based greeting:</p>
+
+<button onclick="myFunction()">Đăng kí</button>
 
 <p id="demo"></p>
+
+<script>
+function myFunction() {
+    var hour = new Date().getHours(); 
+    var greeting;
+    if (hour < 18) {
+        greeting = "Chúc mừng bạn đã đăng kí thành công";
+    } else {
+        greeting = "Chúc mừng bạn đã đăng kí thành công";
+    }
+    document.getElementById("demo").innerHTML = greeting;
+}
+</script>
 
 </body>
 </html>
