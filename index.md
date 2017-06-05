@@ -50,8 +50,8 @@ p {
 	</option><option value="30">
 	</option><option value="31">
 	</option></datalist>
-<input list="Tháng" name="Tháng" placeholder="Tháng">
-<datalist id="Tháng">
+	<input list="Tháng" name="Tháng" placeholder="Tháng">
+	<datalist id="Tháng">
 	<option value="1">
   	</option><option value="2">
   	</option><option value="3">
@@ -65,8 +65,8 @@ p {
 	</option><option value="11">
 	</option><option value="12">
 	</option></datalist>
-<input list="Năm" name="Năm" placeholder="Năm">
-<datalist id="Năm">
+	<input list="Năm" name="Năm" placeholder="Năm">
+	<datalist id="Năm">
 	
 <option value="1958">
 </option><option value="1959">
@@ -129,8 +129,8 @@ p {
 </option><option value="2016">
 </option><option value="2017">
   
-</option></datalist>
-<datalist id="year">
+	</option></datalist>
+	<datalist id="year">
 	
 <option value="1958">
 </option><option value="1959">
