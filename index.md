@@ -205,7 +205,7 @@ function myFunction() {
     var time = new Date().getHours();
     if (time < 10) {
         greeting = "Good morning";
-    } else if (time < 5) {
+    } else if (time < 20) {
         greeting = "Chúc mừng đã đăng kí thành công";
     } else {
         greeting = "Chúc mừng đã đăng kí thành công";
