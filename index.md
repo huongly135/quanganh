@@ -193,5 +193,13 @@
   <input type="radio" name="gender" value="Nữ">
    Nữ
    <br>
-   <input type="submit" value="Đăng ký">
+   <body>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Đăng kí.</button>
+
+<p id="demo"></p>
+
+</body>
 </html>
