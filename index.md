@@ -1,8 +1,8 @@
 <html><head></head>
 <body>
 
-# *Tạo tài khoản mới* #
-## **_Miễn phí và luôn như vậy_** ## 
+<h1>Tạo tài khoản mới</h1>
+<h2>Miễn phí và luôn như vậy</h2>
 </body>
 <form action="/action_page.php">
   <input type="text" name="fname" placeholder="Họ"><input type="text" name="lname" placeholder="Tên"><br><br>
