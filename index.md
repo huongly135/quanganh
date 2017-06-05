@@ -11,13 +11,14 @@ p {
 # *Tạo tài khoản mới* #
 # **_Miễn phí và luôn như vậy_** #
 
+</body>
 <form action="/action_page.php">
   <input type="text" name="fname" placeholder="Họ"><input type="text" name="lname" placeholder="Tên"><br><br>
 	<input type="text" name="lname" placeholder="Số di động hoặc email"><br><br>
 	<input type="password" name="lname" placeholder="Mật khẩu mới"><br><br>
 </form>
-<input list="Ngày" name="Ngày" placeholder="Ngày">
-<datalist id="Ngày">
+<input list="day" name="day" placeholder="Day">
+<datalist id="day">
 	<option value="1">
   	</option><option value="2">
   	</option><option value="3">
@@ -50,8 +51,8 @@ p {
 	</option><option value="30">
 	</option><option value="31">
 	</option></datalist>
-	<input list="Tháng" name="Tháng" placeholder="Tháng">
-	<datalist id="Tháng">
+<input list="month" name="month" placeholder="Month">
+<datalist id="month">
 	<option value="1">
   	</option><option value="2">
   	</option><option value="3">
@@ -65,8 +66,8 @@ p {
 	</option><option value="11">
 	</option><option value="12">
 	</option></datalist>
-	<input list="Năm" name="Năm" placeholder="Năm">
-	<datalist id="Năm">
+<input list="year" name="year" placeholder="Year">
+<datalist id="year">
 	
 <option value="1958">
 </option><option value="1959">
@@ -129,8 +130,8 @@ p {
 </option><option value="2016">
 </option><option value="2017">
   
-	</option></datalist>
-	<datalist id="year">
+</option></datalist>
+<datalist id="year">
 	
 <option value="1958">
 </option><option value="1959">
@@ -192,12 +193,13 @@ p {
 </option><option value="2015">
 </option><option value="2016">
 </option><option value="2017">
+  
 </option></datalist>
-<br>
-<input type="radio" name="gender" value="Nam" checked="">
+	<br>
+	<input type="radio" name="gender" value="Nam" checked="">
      Nam
-<input type="radio" name="gender" value="Nữ">
+  <input type="radio" name="gender" value="Nữ">
    Nữ
-<br>
-<input type="submit" value="Đăng ký">
+   <br>
+   <input type="submit" value="Đăng ký">
 
