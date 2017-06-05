@@ -197,7 +197,7 @@
 
 <p>Ấn vào nút đăng kí bên dưới để hoàn thành:</p>
 
-<button onclick="myFunction()">Try it</button>
+<button onclick="myFunction()">Đăng kí</button>
 
 <p id="demo"></p>
 
@@ -206,11 +206,11 @@ function myFunction() {
     var greeting;
     var time = new Date().getHours();
     if (time < 10) {
-        greeting = "Good morning";
-    } else if (time < 20) {
-        greeting = "Good day";
+        greeting = "good morning";
+    } else if (time < 10) {
+        greeting = "Chúc mừng bạn đã đăng kí thành công";
     } else {
-        greeting = "Good evening";
+        greeting = "Chúc mừng bạn đã đăng kí thành công";
     }
 document.getElementById("demo").innerHTML = greeting;
 }
