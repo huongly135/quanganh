@@ -195,8 +195,6 @@
    <br>
    <body>
 
-<p>Click the button to display a time-based greeting:</p>
-
 <button onclick="myFunction()">Đăng kí</button>
 
 <p id="demo"></p>
@@ -214,5 +212,4 @@ function myFunction() {
 }
 </script>
 
-</body>
 </html>
