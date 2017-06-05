@@ -199,6 +199,8 @@
 
 <button onclick="myFunction()">Đăng kí</button>
 
+<p id="demo"></p>
+
 <script>
 function myFunction() {
     var greeting;
