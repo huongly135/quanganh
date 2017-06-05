@@ -195,20 +195,24 @@
    <br>
    <body>
 
-<button onclick="myFunction()">Đăng kí</button>
+<p>Ấn vào nút đăng kí bên dưới để hoàn thành:</p>
+
+<button onclick="myFunction()">Try it</button>
 
 <p id="demo"></p>
 
 <script>
 function myFunction() {
-    var hour = new Date().getHours(); 
     var greeting;
-    if (hour < 18) {
-        greeting = "Chúc mừng bạn đã đăng kí thành công";
+    var time = new Date().getHours();
+    if (time < 10) {
+        greeting = "Good morning";
+    } else if (time < 20) {
+        greeting = "Good day";
     } else {
-        greeting = "Chúc mừng bạn đã đăng kí thành công";
+        greeting = "Good evening";
     }
-    document.getElementById("demo").innerHTML = greeting;
+document.getElementById("demo").innerHTML = greeting;
 }
 </script>
 
