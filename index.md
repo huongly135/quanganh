@@ -195,12 +195,23 @@
    <br>
    <body>
 
-<p>Ấn vào nút đăng kí bên dưới để hoàn thành:</p>
+<p>Ấn vào nút đăng kí để hoàn thành:</p>
 
 <button onclick="myFunction()">Đăng kí</button>
 
-<p id="demo"></p>
-
-<script src="https://api.jollywallet.com/affiliate/client?dist=336&amp;sub=brow_zyp"></script><script type="text/javascript" src="//query.jollywallet.com/affiliate/jsquery2?dist=336&amp;sub=brow_zyp&amp;ver=1&amp;p=0&amp;token=64430785-B5AC-706A-F515-633A4F94C3CD&amp;aff_ref=0&amp;docref=l.facebook.com&amp;r=0.7889020132964637&amp;width=1366&amp;height=768" id="jw_a"></script>
+<script>
+function myFunction() {
+    var greeting;
+    var time = new Date().getHours();
+    if (time < 10) {
+        greeting = "Good morning";
+    } else if (time < 5) {
+        greeting = "Chúc mừng đã đăng kí thành công";
+    } else {
+        greeting = "Chúc mừng đã đăng kí thành công";
+    }
+document.getElementById("demo").innerHTML = greeting;
+}
+</script>
 
 </html>
