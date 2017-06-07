@@ -46,7 +46,9 @@
 	</option><option value="30">
 	</option><option value="31">
 	</option></datalist>
-<input list="Tháng" name="Tháng" placeholder="Tháng">
+<form action="/action_page_post.php" method="post">
+  <input type="text" name="fname" required
+  input list="Tháng" name="Tháng" placeholder="Tháng">>
 <datalist id="Tháng">
 	<option value="1">
   	</option><option value="2">
