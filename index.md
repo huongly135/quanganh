@@ -202,10 +202,7 @@
 
 <p>Ấn vào nút đăng kí để hoàn thành:</p>
 
-<form action="/action_page_post.php" method="post">
-  <input type="text" name="fname" required>
   <input type="submit" value="Đăng kí">
-</form>
 
 <p id="demo"></p>
 
