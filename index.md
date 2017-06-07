@@ -204,24 +204,22 @@
    <br>
    <body>
 
-<p>Ấn vào nút đăng kí để hoàn thành:</p>
+<p>Click vào nút đăng kí để hoàn thành:</p>
 
-  <input type="submit" value="Đăng kí">
+<button onclick="myFunction()">Đăng kí</button>
 
 <p id="demo"></p>
 
 <script>
 function myFunction() {
+    var hour = new Date().getHours(); 
     var greeting;
-    var time = new Date().getHours();
-    if (name ) {
-        greeting = "Good morning";
-    } else if (name ) {
-        greeting = "Chúc mừng đã đăng kí thành công";
+    if (hour < 18) {
+        greeting = "Chúc mừng bạn đã đăng kí thành công";
     } else {
-        greeting = "Chúc mừng đã đăng kí thành công";
+        greeting = "Chúc mừng bạn đã đăng kí thành công";
     }
-document.getElementById("demo").innerHTML = greeting;
+    document.getElementById("demo").innerHTML = greeting;
 }
 </script>
 
