@@ -208,19 +208,4 @@
 
 <button onclick="myFunction()">Đăng kí</button>
 
-<p id="demo"></p>
-
-<script>
-function myFunction() {
-    var hour = new Date().getHours(); 
-    var greeting;
-    if (hour < 18) {
-        greeting = "Chúc mừng bạn đã đăng kí thành công";
-    } else {
-        greeting = "Chúc mừng bạn đã đăng kí thành công";
-    }
-    document.getElementById("demo").innerHTML = greeting;
-}
-</script>
-
 </html>
