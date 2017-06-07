@@ -12,7 +12,9 @@
 	<input type="text" name="lname" placeholder="Số di động hoặc email"><br><br>
 	<input type="password" name="lname" placeholder="Mật khẩu mới"><br><br>
 </form>
-<input list="Ngày" name="Ngày" placeholder="Ngày">
+<form action="/action_page_post.php" method="post">
+  <input type="text" name="fname" required
+  input list="Ngày" name="Ngày" placeholder="Ngày">
 <datalist id="Ngày">
 	<option value="1">
   	</option><option value="2">
@@ -63,7 +65,9 @@
 	</option><option value="11">
 	</option><option value="12">
 	</option></datalist>
-<input list="Năm" name="Năm" placeholder="Năm">
+<form action="/action_page_post.php" method="post">
+  <input type="text" name="fname" required
+  input list="Năm" name="Năm" placeholder="Năm">
 <datalist id="Năm">
 	
 <option value="1958">
