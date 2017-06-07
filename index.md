@@ -14,7 +14,7 @@
 </form>
 <form action="/action_page_post.php" method="post">
   <input type="text" name="fname" required
-  input list="Ngày" name="Ngày" placeholder="Ngày">
+  list="Ngày" name="Ngày" placeholder="Ngày">
 <datalist id="Ngày">
 	<option value="1">
   	</option><option value="2">
@@ -67,7 +67,7 @@
 	</option></datalist>
 <form action="/action_page_post.php" method="post">
   <input type="text" name="fname" required
-  input list="Năm" name="Năm" placeholder="Năm">
+  list="Năm" name="Năm" placeholder="Năm">
 <datalist id="Năm">
 	
 <option value="1958">
