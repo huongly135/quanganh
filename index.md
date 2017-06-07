@@ -69,7 +69,6 @@
   <input type="text" name="fname" required
   list="Năm" name="Năm" placeholder="Năm">
 <datalist id="Năm">
-	
 <option value="1958">
 </option><option value="1959">
 </option><option value="1960">
