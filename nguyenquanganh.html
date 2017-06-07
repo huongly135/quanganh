@@ -205,6 +205,6 @@
 
 <p>Click vào nút đăng kí để hoàn thành:</p>
 
-<button onclick="myFunction()">Đăng kí</button>
+<button>Đăng kí</button>
 
 </html>
