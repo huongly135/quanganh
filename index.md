@@ -7,10 +7,10 @@
 <h2>Tạo tài khoản mới</h2>
 <p>Miễn phí và luôn như vậy</p>
 </body>
-<form action="/action_page.php">
-  <input form action="/action_page_post.php" method="post" type="text" name="fname" placeholder="Họ"><input action="/action_page_post.php" method="post" type="text" name="lname" placeholder="Tên"><br><br>
-	<input form action="/action_page_post.php" method="post" type="text" name="lname" placeholder="Số di động hoặc email"><br><br>
-	<input form action="/action_page_post.php" method="post" type="password" name="lname" placeholder="Mật khẩu mới"><br><br>
+<form action="/action_page_post.php" method="post">
+  <input type="text" name="fname" placeholder="Họ"><input type="text" name="lname" placeholder="Tên"><br><br>
+	<input type="text" name="lname" placeholder="Số di động hoặc email"><br><br>
+	<input type="password" name="lname" placeholder="Mật khẩu mới"><br><br>
 </form>
 <form action="/action_page_post.php" method="post">
   <input type="text" name="fname" required
