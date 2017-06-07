@@ -197,7 +197,7 @@
 
 <p>Ấn vào nút đăng kí để hoàn thành:</p>
 
-<button onclick="myFunction()">Đăng kí</button>
+<input type="submit" value="Đăng kí">
 
 <p id="demo"></p>
 
