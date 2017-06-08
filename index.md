@@ -50,7 +50,7 @@
 	</option></datalist>
 <form action="/action_page_post.php" method="post">
   <input type="text" name="fname" required
-  input list="Tháng" name="Tháng" placeholder="Tháng">>
+  input list="Tháng" name="Tháng" placeholder="Tháng">
 <datalist id="Tháng">
 	<option value="1">
   	</option><option value="2">
