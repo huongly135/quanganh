@@ -206,5 +206,3 @@
 <p>Click vào nút đăng kí để hoàn thành:</p>
 
 <button>Đăng kí</button>
-
-</html>
