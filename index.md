@@ -1,4 +1,4 @@
-<title>btvn</title>
+<body>
 
 <h2>Tạo tài khoản mới</h2>
 <p>Miễn phí và luôn như vậy</p>
