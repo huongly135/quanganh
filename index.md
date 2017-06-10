@@ -58,7 +58,7 @@ if (h == "")
 <input type="text" name="lname" placeholder="tên" style="width: 150px; height: 25px;" ><br><br>
 <input type="text" name="sdtoremail" placeholder="số di dộng hoặc email"  style="width: 300px; height: 25px;"><br><br>
 <input type="password" name="password" placeholder="mật khẩu mới"  style="width: 300px; height: 25px;"><br>
-
+<br></br>
 <form action="/action_page_post.php" method="post">
   <input type="text" name="fname" required
   list="Ngày" name="Ngày" placeholder="Ngày">
