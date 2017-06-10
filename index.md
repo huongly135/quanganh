@@ -3,33 +3,7 @@
 <h2>Tạo tài khoản mới</h2>
 <p>Miễn phí và luôn như vậy</p>
 </body>
-<script>
-function checkinformation(){
 
-
-var a = document.forms["create"]["fname"].value;
-if (a == "") {
-        alert("Họ!");
-        return false;
-		}
-var b = document.forms["create"]["lname"].value;
-if (b == "") {
-        alert("Tên! ");
-        return false;
-		}
-var c = document.forms["create"]["sdtoremail"].value;
- if (c == "") {
-        alert("Số di động hoặc Email!");
-        return false;
-		}
-
-var d = document.forms["create"]["password"].value;
-if (d ==""){
-		alert("Mật kh<body>
-
-<h2>Tạo tài khoản mới</h2>
-<p>Miễn phí và luôn như vậy</p>
-</body>
 <script>
 function checkinformation(){
 
