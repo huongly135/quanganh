@@ -7,11 +7,57 @@
 <h2>Tạo tài khoản mới</h2>
 <p>Miễn phí và luôn như vậy</p>
 </body>
-<form action="/action_page_post.php" method="post">
-  <input type="text" name="fname" placeholder="Họ"><input type="text" name="lname" placeholder="Tên"><br><br>
-	<input type="text" name="lname" placeholder="Số di động hoặc email"><br><br>
-	<input type="password" name="lname" placeholder="Mật khẩu mới"><br><br>
-</form>
+<script>
+function checkinformation(){
+
+
+var a = document.forms["create"]["fname"].value;
+if (a == "") {
+        alert("Họ!");
+        return false;
+		}
+var b = document.forms["create"]["lname"].value;
+if (b == "") {
+        alert("Tên! ");
+        return false;
+		}
+var c = document.forms["create"]["sdtoremail"].value;
+ if (c == "") {
+        alert("Số di động hoặc Email!");
+        return false;
+		}
+
+var d = document.forms["create"]["password"].value;
+if (d ==""){
+		alert("Mật khẩu!");
+		return false;
+	}
+var e = document.forms["create"]["bday"].value;
+if (e ==""){
+		alert("ngày sinh!");
+		return false;
+	}
+var f = document.forms["create"]["bmonth"].value;
+if (f ==""){
+		alert("tháng sinh!");
+		return false;
+	}
+var g = document.forms["create"]["byear"].value;
+if (g ==""){
+		alert("năm sinh!")
+		return false;
+	}
+var h = document.forms["create"]["gender"].value;
+if (h == "")
+		alert("giới tính!");
+		return false;
+}
+</script>
+<form name="create" onsubmit="return checkinformation()">
+<input type="text" name="fname" placeholder="họ"  style="width: 150px; height: 25px; " > 
+<input type="text" name="lname" placeholder="tên" style="width: 150px; height: 25px;" ><br><br>
+<input type="text" name="sdtoremail" placeholder="số di dộng hoặc email"  style="width: 300px; height: 25px;"><br><br>
+<input type="password" name="password" placeholder="mật khẩu mới"  style="width: 300px; height: 25px;"><br>
 <form action="/action_page_post.php" method="post">
   <input type="text" name="fname" required
   list="Ngày" name="Ngày" placeholder="Ngày">
